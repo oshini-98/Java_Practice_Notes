@@ -1,0 +1,7 @@
+class and interface   -  Calc, Runnerble
+variable              -  marks, show()
+constants             -  PIE, BRAND, MY_DATA
+
+camel casing  
+    method   -  showMyMarks()
+    class    -  MyClass 

@@ -1,0 +1,2 @@
+1. Compiletime Polymorphism   -  overloading
+2. Runtime Polymorphism       -  overrinding

@@ -1,0 +1,8 @@
+* Multiple inheritense in not possible in java
+
+
+A <-- B <-- C              possible
+
+A <-- c   and   B <-- c    not possible (Multiple inheritense, Ambiguity)
+
+Refer --> Multiple inheritense1.png and Multiple inheritense2.png

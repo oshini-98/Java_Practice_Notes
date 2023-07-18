@@ -1,0 +1,8 @@
+variable  -->  Cannot re assign value
+
+class     -->  cannot extends as parent class
+
+method    -->  canot override
+
+
+All the variables inside a interface are buy default static final

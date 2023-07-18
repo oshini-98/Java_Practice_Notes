@@ -1,0 +1,78 @@
+Collection API --> concept
+Collection --> interface
+Collections --> class
+
+
+Indexing is not in the collections.
+    ex: cannot access elements using inex values. A[0], A[1]...
+    Collection<Integer> nums = new ArrayList();
+    nums.add(6);
+    nums.add(5);
+    nums.add(8);
+
+    for(Object n : nums){
+        System.out.println((Integer)n);
+    }
+
+
+
+If need to use the indexing, instead of using Collection we can use List
+
+    List<Integer> nums = new ArrayList();
+    nums.add(6);
+    nums.add(5);
+    nums.add(8);
+
+    System.out.println(nums.get(2));    // output --> 8
+
+    for(Object n : nums){
+        System.out.println((Integer)n);
+    }
+
+
+
+In List we can use same element multiple times.
+Set --> we can use when we need to store unique values. (No duplicate values)
+        Does not have index values.
+        * Elements are not sorted.
+
+    Set<> nums = new Hashset<Integer>();
+
+
+
+
+If we need a sorted set, have to use treeSet
+
+    Set<Integer> nums = new TreeSet<Integer>();
+
+    // or
+
+    Collection<Integer> nums = new TreeSet<Integer>();
+    nums.add(6);
+    nums.add(5);
+    nums.add(8);
+
+    Iterator<Integer> values = nums.iterator();
+
+    while(values.hasNext())
+        System.out.println(values.next());
+
+
+
+Map --> key cannot be repeated.
+
+    Map<String, Integer> students = new HashMap<String, Integer>();
+    students.put(key: "Navin", value: 57);
+    students.put(key: "Harsh", value: 49);
+    students.put(key: "Kiran", value: 78);
+
+    students.put(key: "Harsh", value: 88); // replce the value that key has harsh. do not ad new rwcord
+
+    System.out.println(students); // output --> {Navin=57, Harsh=88, Kiran=78}
+
+    System.out.println(students.keySet()); // output -->  {Navin, Harsh, Kiran}
+
+    for(String key : students.keySet()){
+        System.out.println(key + " : " + students.get(key))
+    }
+

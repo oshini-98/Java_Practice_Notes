@@ -1,0 +1,8 @@
+Interface has only methods not implement.
+Methods implement in the sub classes.
+All methods inside a interface are public abstract in by default
+
+Types of interface 
+    - Normal interface - have two or more methods
+    - Functional interface (SAM - Singale Abstract Method) - has only one method
+    - Marker - no methods 

@@ -1,0 +1,15 @@
+                       public    private    protected    default
+
+Same class              Yes       Yes        Yes           Yes
+
+Same package            Yes       No         Yes           Yes
+subclass         
+
+Same package            Yes       No         Yes           Yes
+non-subclass
+
+Different package       Yes       No         Yes           No
+subclass
+
+Different package       Yes       No         No            No
+non-subclass
