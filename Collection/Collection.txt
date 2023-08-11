@@ -4,7 +4,7 @@ Collections --> class
 
 
 Indexing is not in the collections.
-    ex: cannot access elements using inex values. A[0], A[1]...
+    ex: cannot access elements using index values. A[0], A[1]...
     Collection<Integer> nums = new ArrayList();
     nums.add(6);
     nums.add(5);
